@@ -1,0 +1,108 @@
+.playground {
+  /* background-color: #171ea8; */
+  /* background-image: url('./images/sky-bg.jpg'); */
+  margin: 0 auto;
+  position: relative;
+  /* box-shadow: inset -5px -5px 12px 20px var(--bg-main); */
+  overflow: hidden;
+}
+
+
+.playground .annunziata,
+.playground .matteotti,
+.playground .laghitello,
+.playground .laghitello-2,
+.playground .bar,
+.playground .san-nicola
+ {
+    display: block;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(1.15) grayscale(1);
+    width:250px;
+    height:250px;
+    position: absolute;
+}
+
+.playground .annunziata {
+    background-image: url('./images/annunziata.png');
+    -webkit-animation: moveX 10s linear 0s infinite alternate, moveY 8s linear 0s infinite alternate;
+    -moz-animation: moveX 10s linear 0s infinite alternate, moveY 8s linear 0s infinite alternate;
+    -o-animation: moveX 10s linear 0s infinite alternate, moveY 8s linear 0s infinite alternate;
+    animation: moveX 10s linear 0s infinite alternate, moveY 8s linear 0s infinite alternate;
+}
+
+.playground .matteotti {
+    background-image: url('./images/matteotti.png');
+    -webkit-animation: moveX 7s linear 0.5s infinite alternate, moveY 12s linear 0.5s infinite alternate;
+    -moz-animation: moveX 7s linear 0.5s infinite alternate, moveY 12s linear 0.5s infinite alternate;
+    -o-animation: moveX 7s linear 0.5s infinite alternate, moveY 12s linear 0.5s infinite alternate;
+    animation: moveX 7s linear 0.5s infinite alternate, moveY 12s linear 0.5s infinite alternate;
+}
+
+.playground .laghitello {
+    background-image: url('./images/laghitello.png');
+    -webkit-animation: moveX 5s linear 1s infinite alternate, moveY 6s linear 1s infinite alternate;
+    -moz-animation: moveX 5s linear 1s infinite alternate, moveY 6s linear 1s infinite alternate;
+    -o-animation: moveX 5s linear 1s infinite alternate, moveY 6s linear 1s infinite alternate;
+    animation: moveX 5s linear 1s infinite alternate, moveY 6s linear 1s infinite alternate;
+}
+
+.playground .laghitello-2 {
+    background-image: url('./images/laghitello-2.png');
+    -webkit-animation: moveX 5s linear 1s infinite alternate, moveY 6s linear 1s infinite alternate;
+    -moz-animation: moveX 5s linear 1s infinite alternate, moveY 6s linear 1s infinite alternate;
+    -o-animation: moveX 5s linear 1s infinite alternate, moveY 6s linear 1s infinite alternate;
+    animation: moveX 5.8s linear 1s infinite alternate, moveY 4.5s linear 1s infinite alternate;
+}
+
+.playground .san-nicola {
+    background-image: url('./images/san-nicola.png');
+    -webkit-animation: moveX 7s linear 0.5s infinite alternate, moveY 12s linear 0.5s infinite alternate;
+    -moz-animation: moveX 7s linear 0.5s infinite alternate, moveY 12s linear 0.5s infinite alternate;
+    -o-animation: moveX 7s linear 0.5s infinite alternate, moveY 12s linear 0.5s infinite alternate;
+    animation: moveX 6.5s linear 1s infinite alternate, moveY 8.5s linear 1s infinite alternate;
+}
+
+.playground .bar {
+    background-image: url('./images/bar.png');
+    -webkit-animation: moveX 7s linear 0.5s infinite alternate, moveY 12s linear 0.5s infinite alternate;
+    -moz-animation: moveX 7s linear 0.5s infinite alternate, moveY 12s linear 0.5s infinite alternate;
+    -o-animation: moveX 7s linear 0.5s infinite alternate, moveY 12s linear 0.5s infinite alternate;
+    animation: moveX 4.5s linear 1s infinite alternate, moveY 7.5s linear 1s infinite alternate;
+}
+
+
+@-webkit-keyframes moveX {
+  from { left: 10px; } to { left: calc(100vw - 8.5em); }
+}
+@-moz-keyframes moveX {
+  from { left: 10px; } to { left: calc(100vw - 8.5em); }
+}
+@-o-keyframes moveX {
+  from { left: 10px; } to { left: calc(100vw - 8.5em); }
+}
+@keyframes moveX {
+  from { left: 10px; } to { left: calc(100vw - 8.5em); }
+}
+@-webkit-keyframes moveY {
+  from { top: 5px; } to { top: calc(100vh - 10em); }
+}
+@-moz-keyframes moveY {
+  from { top: 5px; } to { top: calc(100vh - 10em); }
+}
+@-o-keyframes moveY {
+  from { top: 5px; } to { top: calc(100vh - 10em); }
+}
+@keyframes moveY {
+  from { top: 5px; } to { top: calc(100vh - 10em); }
+}
+
+
+
+
+
+
+

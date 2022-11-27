@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+@font-face {
+    font-family: "Minipax-Regular";
+    src: local("Minipax-Regular"),
+    url("./fonts/Minipax-Regular.woff2") format("woff2"), 
+    url("./fonts/Minipax-Regular.woff") format("woff");
+}
+
+
+
+/* TYPOGRAPHY ROOT */
+
+:root {
+    --primary-font: 'Times New Roman', serif;
+    --sustaria-font: 'Minipax-Regular', serif;
+    --caption-font: 'Inter', sans-serif;
+
+    --h1-size: 3.6rem;
+    --h2-size: 3.6rem;
+    --h3-size: 3rem;
+    --h4-size: 1.8rem;
+    --body-size: 1.8rem;
+    --furniture-size: 32px;
+    --footerTop-size: 24px;
+    --caption-size: 1.2rem;
+    --button-size: 21px;
+
+    --links-color: #AF45E0;
+}
+
+@media screen and (max-width: 1024px) and (min-width:768px ) {
+    
+    :root {
+        --h1-size: 3.6rem;
+        --h2-size: 3.6rem;
+        --h3-size: 2.8rem;
+        --h4-size: 2.2rem;
+        --body-size: 1.6rem;
+        --furniture-size: 26px;
+        --footerTop-size: 22px;
+        --caption-size: 17px;
+        --button-size: 17px;
+    
+        --links-color: #AF45E0;
+    }
+}
+
+
+@media screen and (max-width: 767px ) and (min-width:481px ) {
+    
+    :root {
+        --h1-size: 3.2rem;
+        --h2-size: 3.2rem;
+        --h3-size: 2.6rem;
+        --body-size: 1.5rem;
+        --furniture-size: 26px;
+        --footerTop-size: 22px;
+        --caption-size: 17px;
+        --button-size: 17px;
+    
+    }
+}
+
+@media screen and (max-width: 480px ) {
+    
+    :root {
+        --h1-size: 3rem;
+        --h2-size: 3rem;
+        --h3-size: 2rem;
+        --body-size: 1.2rem;
+        --furniture-size: 26px;
+        --footerTop-size: 20px;
+        --caption-size: 17px;
+        --button-size: 17px;
+ 
+    }
+}
+
+/* GENERAL STYLES */
+
+body {
+    font-family: var(--primary-font);
+    font-size: var(--body-size);
+}
+
+h1, h2, h3 {
+    font-family: var(--primary-font);
+    line-height: 1;
+}
+
+h1 {
+    font-size: var(--h1-size);
+}
+
+h2 {
+    font-size: var(--h2-size);
+}
+
+h3 {
+    font-size: var(--h3-size);
+}
+
+h4 {
+    font-size: var( --h4-size);
+    font-family: var(--caption-font);
+}
+
+p {
+    margin-top: 2rem;
+    line-height: 1.35;
+}
+
+ul,li {
+    font-size: var(--h4-size);
+    font-family: var(--caption-font);
+}
+
+/* SITEWIDE UTILITIES */
+
+figcaption {
+    font-size: var(--caption-size);
+    font-family: var(--caption-font);
+}
+
+button, .button {
+    font-size: var(--button-size);
+    font-family: var(--caption-font);
+}
+
+nav div {
+    font-size: var(--caption-size);
+    font-family: var(--caption-font);
+}
+
+.sustaria {
+    font-family: var(--sustaria-font);
+}
+
+.header-button {
+    font-size: var(--button-size);
+ }
+
+ .header-button span {
+    font-family: var(--caption-font);
+    font-weight: 300;
+    color: #000;
+ }
+
+ .footer-top {
+    font-family: var(--caption-font);
+    font-size: var(--footerTop-size);
+ }
+
+ .footer-bottom {
+    font-family: var(--primary-font);
+    font-size: var(--furniture-size);
+ }
+
+

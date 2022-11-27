@@ -1,0 +1,27 @@
+FONT STYLES
+
+** Primary Font: Times New Roman
+H1: 88px
+H2: 88px
+Body: 35px
+Furniture: 32px
+
+** Secondary Font: Inter
+Captions: 21px	
+
+
+COLORS
+
+** Background-color-main: F3F2ED
+
+** Buttons:
+Background-color::active: 9DE9A0
+Text-color-active: black
+opacity: 1
+
+Background-color: FFF
+Text-color: black
+opacity: 0.3
+
+optional -- box-shadow: 0px 0px 21px 0px #0324562E;
+
