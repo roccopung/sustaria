@@ -16,3 +16,14 @@ document.addEventListener("scroll", (event) => {
     }
     lastScrollTop = scrollTop; 
   });
+
+  var swiper = new Swiper(".article-carousel", {
+    pagination: {
+      el: ".swiper-pagination",
+      type: "fraction",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });

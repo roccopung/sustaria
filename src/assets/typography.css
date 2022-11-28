@@ -19,11 +19,11 @@
     --h1-size: 3.6rem;
     --h2-size: 3.6rem;
     --h3-size: 3rem;
-    --h4-size: 1.8rem;
+    --h4-size: 1.45rem;
     --body-size: 1.8rem;
     --furniture-size: 32px;
     --footerTop-size: 24px;
-    --caption-size: 1.2rem;
+    --caption-size: 1.1rem;
     --button-size: 21px;
 
     --links-color: #AF45E0;
@@ -35,11 +35,11 @@
         --h1-size: 3.6rem;
         --h2-size: 3.6rem;
         --h3-size: 2.8rem;
-        --h4-size: 2.2rem;
+        --h4-size: 1.35rem;
         --body-size: 1.6rem;
         --furniture-size: 26px;
         --footerTop-size: 22px;
-        --caption-size: 17px;
+        --caption-size: 1rem;
         --button-size: 17px;
     
         --links-color: #AF45E0;
@@ -53,10 +53,11 @@
         --h1-size: 3.2rem;
         --h2-size: 3.2rem;
         --h3-size: 2.6rem;
+        --h4-size: 1.25rem;
         --body-size: 1.5rem;
         --furniture-size: 26px;
         --footerTop-size: 22px;
-        --caption-size: 17px;
+        --caption-size: 0.9rem;
         --button-size: 17px;
     
     }
@@ -68,10 +69,11 @@
         --h1-size: 3rem;
         --h2-size: 3rem;
         --h3-size: 2rem;
-        --body-size: 1.2rem;
+        --h4-size: 1.35rem;
+        --body-size: 1.3rem;
         --furniture-size: 26px;
         --footerTop-size: 20px;
-        --caption-size: 17px;
+        --caption-size: 0.9rem;
         --button-size: 17px;
  
     }
@@ -107,7 +109,6 @@ h4 {
 }
 
 p {
-    margin-top: 2rem;
     line-height: 1.35;
 }
 
@@ -116,11 +117,19 @@ ul,li {
     font-family: var(--caption-font);
 }
 
+.marquee ul li {
+    font-family: var(--primary-font);
+    font-size: var(--h3-size);
+}
+
+
 /* SITEWIDE UTILITIES */
 
 figcaption {
     font-size: var(--caption-size);
     font-family: var(--caption-font);
+    line-height: 1.35;
+
 }
 
 button, .button {
