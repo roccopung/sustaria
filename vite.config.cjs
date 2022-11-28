@@ -48,36 +48,36 @@ import viteImagemin from 'vite-plugin-imagemin'
         }
       },
     },
-    plugins: [
-      viteImagemin({
-        gifsicle: {
-          optimizationLevel: 7,
-          interlaced: false,
-        },
-        optipng: {
-          optimizationLevel: 2,
-        },
-        mozjpeg: {
-          quality: 80,
-        },
-        pngquant: {
-          quality: [0.8, 0.9],
-          speed: 4,
-        },
-        webp: {
-          quality: [0.5],
-        },
-        svgo: {
-          plugins: [
-            {
-              name: 'removeViewBox',
-            },
-            {
-              name: 'removeEmptyAttrs',
-              active: false,
-            },
-          ],
-        },
-      }),
-    ],
+    // plugins: [
+    //   viteImagemin({
+    //     gifsicle: {
+    //       optimizationLevel: 7,
+    //       interlaced: false,
+    //     },
+    //     optipng: {
+    //       optimizationLevel: 2,
+    //     },
+    //     mozjpeg: {
+    //       quality: 80,
+    //     },
+    //     pngquant: {
+    //       quality: [0.8, 0.9],
+    //       speed: 4,
+    //     },
+    //     webp: {
+    //       quality: [0.5],
+    //     },
+    //     svgo: {
+    //       plugins: [
+    //         {
+    //           name: 'removeViewBox',
+    //         },
+    //         {
+    //           name: 'removeEmptyAttrs',
+    //           active: false,
+    //         },
+    //       ],
+    //     },
+    //   }),
+    // ],
   })
