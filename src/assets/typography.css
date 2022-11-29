@@ -12,7 +12,7 @@
 /* TYPOGRAPHY ROOT */
 
 :root {
-    --primary-font: 'Times New Roman', serif;
+    --primary-font: 'Times New Roman', 'Times', serif;
     --sustaria-font: 'Minipax-Regular', serif;
     --caption-font: 'Inter', sans-serif;
 
