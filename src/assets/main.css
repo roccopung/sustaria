@@ -320,6 +320,10 @@ article img:hover {
     pointer-events: none;
 }
 
+.remappingLago-cover iframe {
+    position: absolute;
+}
+
 
 
 
